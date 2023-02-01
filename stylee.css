@@ -1,0 +1,297 @@
+div{display: flex;
+    justify-content: center;
+    }
+img{
+    width: 7%;
+}
+h1{
+    color:rgb(93, 219, 177);
+}
+* {
+  box-sizing: border-box;
+}
+   
+
+    
+    
+  
+.b{
+    
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:gray;
+    padding: 15px;
+    min-height: 200px;
+    
+  
+  
+}
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: flex;
+    color: grey;
+    text-align: center;
+    padding:20px;
+    text-decoration: none;
+    font-style: italic;
+    font-size: large;
+    font-style: unset;
+
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    
+  }
+  .containerTab {
+    padding: 20px;
+    color: white;
+  }
+  
+ 
+  .ROW:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .column{ 
+    background-color: transparent;
+  }
+ 
+option{
+    color: black;
+}
+.title{
+    font-size: 15px;
+    color: black;
+    font-style: oblique;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.B1{
+  width: 200px;
+  margin: 10px;
+  min-height: 100px;
+}
+.B2{
+  width: 200px;
+  margin: 10px;
+  min-height: 400px;
+  align-self: flex-end;
+}
+.row {
+  
+  display: flex;
+  margin: 10px;
+  border-radius: 9px;
+  
+}
+.flexy{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 100%;
+  min-height: 200px;
+
+}
+.a{
+  display: flex;
+  flex-direction: column;
+}
+.c1{
+  color: grey;
+}
+.A1{
+  background-color: #6dd4c7;
+  color: grey;
+  font-size: 20px;
+  font-style: italic;
+  display: flex;
+  text-align: center;
+  margin: 40px;
+  
+  
+}
+.boxs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+.A2{
+  
+  background-color: white;
+  margin: 10px;
+  height: fit-content;
+  border-radius: 9px;
+  
+}
+.A3{ 
+  background-color: white;
+  margin: 10px;
+  height: fit-content;
+  border-radius: 9px;
+  
+
+}
+.A5{
+  background-color: white;
+  margin: 10px;
+  height: fit-content;
+  border-radius: 9px;
+}
+.A4{
+  background-color: white;
+  margin: 10px;
+  height: fit-content;
+  border-radius: 9px;
+}
+.title2 {
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-style: italic;
+  
+
+}
+.image1{
+  width: 50px;
+  height: max-content;
+}
+.paragraph{
+   text-align: center;
+   color: gray;
+   font-size: large;
+   display: flex;
+   flex-direction: column;
+
+}
+.paragraph-title{
+  font-size: 50px;
+  color:rgb(93, 219, 177);
+  margin: 10px;
+}
+.pays{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+}
+.W{
+  width: 300;
+  height: 350px;
+  margin: 60px;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.buttom {
+  padding: 14px 28px;
+  font-size: 14px;
+  cursor: pointer;
+  border-color: rgb(93, 219, 177);
+  color: rgb(93, 219, 177);
+  margin: 20px;
+  
+  
+}
+.imgg {
+  height: 50px;
+  width: 350px;
+  height: 300px;
+  margin: 2px;
+  border-radius: 9px;
+  
+  
+}
+.nom {
+  font-size: 20px;
+  color:rgb(93, 219, 177);
+  margin: 10px;
+  font-style: italic;
+}
+.ending {
+  margin: 30px;
+ 
+
+  
+  
+}
+.ending1{
+  text-align: center;
+  font-size: 24px;
+  color:rgb(93, 219, 177);
+  margin: 10px;
+}
+.endingb{
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  width: fit-content;
+  cursor: pointer;
+  
+}
+.endingb {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.endingb:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.endingb:hover  {
+  padding-right: 25px;
+}
+
+.endingb:hover:after {
+  opacity: 1;
+  right: 0;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: azure;
+  color: rgb(82, 24, 24);
+}
